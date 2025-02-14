@@ -1,0 +1,14 @@
+MainWindow
+  id: game_jumpWindow
+  !text: tr('Hail Tavernlight! o/')
+  size: 200 200
+
+  @onEnter: closeWindow()
+  @onEscape: closeWindow()
+
+  Button
+    id: jumpButton
+    !text: tr('Jump')
+    size: 60 20
+
+    @onClick: moveButton()

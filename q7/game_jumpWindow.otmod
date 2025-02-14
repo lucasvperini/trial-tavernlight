@@ -1,0 +1,9 @@
+Module
+  name: game_jumpWindow
+  description: A window with a messy button.
+  author: Lucas V. Perini
+  website: https://github.com/lucasvperini
+  sandboxed: true
+  scripts: [ game_jumpWindow.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

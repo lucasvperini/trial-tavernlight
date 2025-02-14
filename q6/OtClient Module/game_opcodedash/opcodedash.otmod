@@ -1,0 +1,8 @@
+Module
+  name: game_opcodedash
+  description: Processess signals from the server.
+  author: Lucas V. Perini
+  sandboxed: true
+  scripts: [ opcodedash.lua ]
+  @onLoad: init()
+  @onUnload: terminate()
